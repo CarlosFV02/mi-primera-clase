@@ -26,8 +26,8 @@ public class Ordenador {
         marca = nombreMarca;
     }
 
-    public void aumentarVelocidad() {
-        velocidadProcesador = velocidadProcesador + 10;
+    public void aumentarVelocidad(int nuevaVelocidad) {
+        velocidadProcesador = velocidadProcesador + nuevaVelocidad;
     }
     
     public void alterarFuncionamiento() {
@@ -35,9 +35,7 @@ public class Ordenador {
     }
     
     public void imprimeDetalles() {
-        System.out.println("Marca: " + marca);
-        System.out.println("Velocidad del procesador: " + velocidadProcesador);
-        System.out.println("Funciona correctamente: " + funcionaCorrectamente);
+        System.out.println("Marca: " + marca + " | Velocidad del procesador: " + velocidadProcesador + "Velocidad del procesador: " + velocidadProcesador);
     }
     
     public String estadoOrdenador() {
